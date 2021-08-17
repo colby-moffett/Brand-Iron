@@ -119,3 +119,7 @@
 .collection-list__item .card-colored {
   position: relative;
 }
+
+.collection-list__item .card__text span{
+  text-transform: uppercase;
+}

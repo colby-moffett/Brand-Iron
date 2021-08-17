@@ -1,0 +1,36 @@
+.image-with-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.image-with-text__content {
+	width: 40%;
+}
+
+.image-with-text__image {
+	min-height: 90vh;
+	width: 60%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	img,
+	svg {
+		position: relative;
+		object-fit: cover;
+		object-position: center;
+		height: 90%;
+		width: 70%;
+	}
+	.image-with-text__image-background {
+		position: absolute;
+		height: 90vh;
+		top: 0;
+		right: 0;
+		width: 50%;
+		background: Red;
+		right: -10rem;
+		z-index: -1;
+	}
+}

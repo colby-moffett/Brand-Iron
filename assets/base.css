@@ -150,7 +150,6 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -162,7 +161,7 @@ html.no-js .no-js-hidden {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 0 10rem;
   }
 
   .page-width--narrow {
@@ -479,6 +478,11 @@ table:not([class]) th {
 .center {
   text-align: center;
 }
+.flex-center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .right {
   text-align: right;
@@ -492,7 +496,7 @@ table:not([class]) th {
   opacity: 0.7;
 }
 
-a:empty,
+/* a:empty,
 ul:empty,
 dl:empty,
 div:empty,
@@ -506,7 +510,7 @@ h4:empty,
 h5:empty,
 h6:empty {
   display: none;
-}
+} */
 
 .link,
 .customer a {
@@ -854,8 +858,8 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 750px) {
   .grid__item {
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
     width: calc(25% - 1rem * 3 / 4);
     max-width: 50%;
   }
@@ -1083,7 +1087,9 @@ deferred-media {
   align-items: center;
   box-sizing: border-box;
   font: inherit;
-  padding: 0.9rem 3rem 1.1rem;
+  padding: 25px 70px;
+  
+  text-transform: uppercase;
   text-decoration: none;
   border: 0;
   border-radius: 0;
@@ -1095,6 +1101,7 @@ deferred-media {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
+  transition: all 300ms ease-in-out;
 }
 
 .button:focus-visible {
@@ -1104,6 +1111,7 @@ deferred-media {
 }
 
 .button:focus {
+  
   box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border)),
     0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
@@ -1117,8 +1125,8 @@ deferred-media {
 .button-label,
 .shopify-challenge__button,
 .customer button {
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
   line-height: 1.2;
 }
 
@@ -1138,7 +1146,9 @@ deferred-media {
 .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
 .customer button:hover {
-  box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));
+  transition: all 300ms ease-in-out;
+  filter: brightness(0.85);
+  
 }
 
 /* Button - other */
