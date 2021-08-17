@@ -8,10 +8,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/shop_all_header_55b9f0c6-aed5-4043-b5d9-217f84c64ed4.png"
           }
+        },
+        "5c6ed520-86b2-4946-a4e8-5f26650e5986": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop_all_headers_2.png"
+          }
         }
       },
       "block_order": [
-        "1629237083b5162a27-0"
+        "1629237083b5162a27-0",
+        "5c6ed520-86b2-4946-a4e8-5f26650e5986"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/shop_all_candles.png"
