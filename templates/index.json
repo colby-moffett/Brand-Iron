@@ -171,6 +171,23 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1629237083b5162a27": {
+      "type": "home-header",
+      "blocks": {
+        "1629237083b5162a27-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shop_all_header_55b9f0c6-aed5-4043-b5d9-217f84c64ed4.png"
+          }
+        }
+      },
+      "block_order": [
+        "1629237083b5162a27-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop_all_candles.png"
+      }
     }
   },
   "order": [
@@ -179,6 +196,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1629237083b5162a27"
   ]
 }
